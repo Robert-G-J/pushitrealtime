@@ -22,7 +22,6 @@ const pusher = new Pusher({
 app.set("PORT", process.env.PORT || 5001);
 
 app.post("/message", (req, res) => {
-  console.log("hit post endpoint");
   const payload = req.body;
   pusher.trigger("chat", "message", payload);
   res.send(payload);
