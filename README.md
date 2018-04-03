@@ -51,3 +51,9 @@ npm start
 
 Load two separate windows, and log in with different `usernames`:
 ![enter username](./documentation/enter-username.png)
+
+And enter a chat message in the box:
+![chat-box](./documentation/chat-screen.png)
+
+So that you can chat in real-time with your (animal) friends:
+![pusher-chat](./documentation/pusher-chat.png)
